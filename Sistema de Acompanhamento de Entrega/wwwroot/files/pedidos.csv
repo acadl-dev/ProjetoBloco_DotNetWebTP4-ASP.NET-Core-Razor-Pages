@@ -1,0 +1,18 @@
+PedidoId,ClienteNome,Data,ValorTotal,Status,ProdutoNome,Quantidade,PrecoUnitario
+1,João Silva,2024-09-12 14:30:00,259.90,Em Trânsito,Notebook Dell,1,249.90
+1,João Silva,2024-09-12 14:30:00,259.90,Em Trânsito,Mouse Logitech,1,10.00
+2,Maria Santos,2024-09-13 09:15:00,89.50,Entregue,Teclado Mecânico,1,89.50
+3,Carlos Oliveira,2024-09-14 16:45:00,450.00,Preparando,Monitor 24",2,225.00
+4,Ana Costa,2024-09-09 11:20:00,125.00,Cancelado,Webcam HD,1,125.00
+5,Pedro Almeida,2024-09-13 13:00:00,340.75,Em Trânsito,Smartphone Samsung,1,299.90
+5,Pedro Almeida,2024-09-13 13:00:00,340.75,Em Trânsito,Capinha Transparente,1,15.90
+5,Pedro Almeida,2024-09-13 13:00:00,340.75,Em Trânsito,Película de Vidro,1,24.95
+6,Lucia Fernandes,2024-09-14 08:30:00,750.00,Preparando,Notebook Gamer,1,650.00
+6,Lucia Fernandes,2024-09-14 08:30:00,750.00,Preparando,Mouse Gamer RGB,1,85.00
+6,Lucia Fernandes,2024-09-14 08:30:00,750.00,Preparando,Mousepad Grande,1,15.00
+7,Ricardo Silva,2024-09-11 19:45:00,199.99,Entregue,Fone Bluetooth,1,199.99
+8,Fernanda Costa,2024-09-10 10:15:00,320.50,Entregue,Tablet 10",1,280.00
+8,Fernanda Costa,2024-09-10 10:15:00,320.50,Entregue,Capa para Tablet,1,25.50
+8,Fernanda Costa,2024-09-10 10:15:00,320.50,Entregue,Caneta Stylus,1,15.00
+9,Gabriel Santos,2024-09-14 20:00:00,89.90,Preparando,Carregador Portátil,1,89.90
+10,Amanda Oliveira,2024-09-08 15:30:00,45.00,Cancelado,Cabo USB-C,3,15.00

@@ -1,0 +1,98 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex">
+    <!-- Seção esquerda - Informações do projeto -->
+    <div class="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-blue-600 to-indigo-700 text-white p-12 flex-col justify-center">
+        <div class="max-w-md mx-auto">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold mb-4">Sistema de Acompanhamento de Entrega</h1>
+                <p class="text-blue-100 text-lg leading-relaxed">
+                    Gerencie e monitore suas entregas de forma eficiente e profissional.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-blue-300 rounded-full"></div>
+                    <span class="text-blue-100">Rastreamento em tempo real</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-blue-300 rounded-full"></div>
+                    <span class="text-blue-100">Relatórios detalhados</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-blue-300 rounded-full"></div>
+                    <span class="text-blue-100">Interface intuitiva</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção direita - Formulário de login -->
+    <div class="w-full lg:w-1/2 flex items-center justify-center p-6">
+        <div class="w-full max-w-md">
+            <!-- Título mobile -->
+            <div class="lg:hidden text-center mb-6">
+                <h1 class="text-xl font-bold text-gray-800 mb-2">Sistema de Acompanhamento</h1>
+                <p class="text-gray-600 text-sm">Faça login para continuar</p>
+            </div>
+
+            <!-- Card de login -->
+            <div class="bg-white shadow-2xl rounded-2xl p-6 border border-gray-100">
+                <div class="text-center mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Bem-vindo</h2>
+                    <p class="text-gray-500 mt-1 text-sm">Acesse sua conta</p>
+                </div>
+
+                <form method="post" class="space-y-4">
+                    <div>
+                        <label asp-for="Username" class="block text-sm font-semibold text-gray-700 mb-1">
+                            Usuário
+                        </label>
+                        <input asp-for="Username"
+                               class="w-full px-3 py-2.5 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 text-gray-700 placeholder-gray-400"
+                               required
+                               placeholder="Digite seu usuário">
+                        <span asp-validation-for="Username" class="text-red-500 text-xs"></span>
+                    </div>
+
+                    <div>
+                        <label asp-for="Password" class="block text-sm font-semibold text-gray-700 mb-1">
+                            Senha
+                        </label>
+                        <input asp-for="Password"
+                               class="w-full px-3 py-2.5 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 text-gray-700 placeholder-gray-400"
+                               required
+                               placeholder="Digite sua senha">
+                        <span asp-validation-for="Password" class="text-red-500 text-xs"></span>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="submit"
+                                class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-2.5 px-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-200">
+                            Entrar
+                        </button>
+                    </div>
+                </form>
+
+                @if (ViewData["ErrorMessage"] != null)
+                {
+                    <div class="mt-4 p-3 bg-red-50 border-l-4 border-red-400 text-red-700 rounded-r-lg" role="alert">
+                        <p class="text-sm font-medium">@ViewData["ErrorMessage"]</p>
+                    </div>
+                }
+            </div>
+
+            <!-- Footer -->
+            <div class="text-center mt-4">
+                <p class="text-xs text-gray-500">
+                    © 2024 Sistema de Acompanhamento de Entrega
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

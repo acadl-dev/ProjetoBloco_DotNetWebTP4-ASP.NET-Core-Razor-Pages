@@ -79,7 +79,7 @@ Sistema-de-Acompanhamento-de-Entrega/
 ### Instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/[seu-usuario]/Sistema-de-Acompanhamento-de-Entrega.git
+git clone https://github.com/acadl-dev/ProjetoBloco_DotNetWebTP4-ASP.NET-Core-Razor-Pages.git
 
 # Navegue até o diretório
 cd Sistema-de-Acompanhamento-de-Entrega
@@ -122,18 +122,12 @@ O dashboard apresenta métricas calculadas dinamicamente:
 
 ## 🎓 Contexto Acadêmico
 
-Este projeto foi desenvolvido como trabalho prático da disciplina de **Desenvolvimento Web**, demonstrando:
+Este projeto foi desenvolvido como trabalho prático da disciplina de **Desenvolvimento Back-end**, demonstrando:
 
 - **Aplicação prática** de conceitos teóricos
 - **Resolução de problemas** do mundo real
 - **Arquitetura escalável** e maintível
 - **Boas práticas** de desenvolvimento
-
-## 📞 Contato
-
-**Desenvolvido por:** [Seu Nome]  
-**LinkedIn:** [seu-linkedin]  
-**E-mail:** [seu-email]
 
 ---
 

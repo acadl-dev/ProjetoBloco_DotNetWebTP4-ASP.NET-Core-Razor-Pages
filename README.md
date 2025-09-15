@@ -126,7 +126,7 @@ Este projeto foi desenvolvido como trabalho prático da disciplina de **Desenvol
 
 - **Aplicação prática** de conceitos teóricos
 - **Resolução de problemas** do mundo real
-- **Arquitetura escalável** e maintível
+- **Arquitetura escalável** e mantível
 - **Boas práticas** de desenvolvimento
 
 ---

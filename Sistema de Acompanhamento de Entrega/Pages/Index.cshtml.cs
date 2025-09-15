@@ -38,7 +38,7 @@ namespace Sistema_de_Acompanhamento_de_Entrega.Pages
             {
                 // Login bem-sucedido - redireciona para a próxima página
                 // Substitua "Dashboard" pelo nome da sua próxima página
-                return RedirectToPage("/visualizar_pedidos");
+                return RedirectToPage("/simulador_compra");
             }
             else
             {
